@@ -303,7 +303,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: #FFCACC;
+  background:linear-gradient(
+    to top,
+    #BEADFA,#D0BFFF,#DFCCFB,#FFF8C9
+  );
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
