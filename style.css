@@ -8,6 +8,10 @@
 }
 
 body {
+  background:linear-gradient(
+    to right,
+    #FAF3F0,#D4E2D4,#FFCACC,#DBC4F0
+  );
   font-family: "Poppins", sans-serif;
 }
 
@@ -245,7 +249,7 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
-  color: white;
+  color: #FFCACC;
 }
 
 .btn-color-1:hover {
@@ -299,7 +303,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #FFCACC;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
